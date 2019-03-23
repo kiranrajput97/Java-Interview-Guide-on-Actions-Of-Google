@@ -1,0 +1,179 @@
+{
+  "id": "8fc59883-2658-4b81-9745-01926fdd848e",
+  "name": "Exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "11c2e505-9331-4666-b21d-9552587d3811",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Thanks for being here \nSee you again.\nGood bye."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536770398,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "bf33bda1-2f02-490d-8e00-a69262ee1baa",
+      "data": [
+        {
+          "text": "Abort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "bbf7adc7-5ce8-4761-869d-930a926161df",
+      "data": [
+        {
+          "text": "okay thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "5877fdda-800a-4710-bf79-01d1248b210e",
+      "data": [
+        {
+          "text": "see you soon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "53d5e084-40f0-4c75-a490-d1a5f05b2507",
+      "data": [
+        {
+          "text": "Dis Engage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "f8c852cc-e662-4c7d-aa93-fca340680814",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "4faade03-7be1-493d-8da2-4e22edf18fb7",
+      "data": [
+        {
+          "text": "Disengage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "b20b650d-3917-4ed0-ae08-d4e479b2176e",
+      "data": [
+        {
+          "text": "Exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "187b52a6-d018-4a03-9ca7-1038ef25073e",
+      "data": [
+        {
+          "text": "okk bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "d0b7147f-6ba1-4e58-9ae6-ebac08c46516",
+      "data": [
+        {
+          "text": "bye tc"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    },
+    {
+      "id": "81bdc832-3196-4940-8f47-fb21a9d472d5",
+      "data": [
+        {
+          "text": "meet u "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452715,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

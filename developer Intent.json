@@ -1,0 +1,173 @@
+{
+  "id": "081e8802-7787-47e9-b4ac-752a7a1654d7",
+  "name": "developer Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "This application is designed and developed by Kiran Rajput.\nHere is more about him..."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Kiran Rajput",
+          "subtitle": "Mr Developer",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/C4E03AQFAYl7N7RCHlg/profile-displayphoto-shrink_200_200/0?e=1536192000&v=beta&t=r9q5S_pxewndVPcZfFWgPw6uu2ijuK-Mn81m34NGFEM",
+            "accessibilityText": "A Dynamic and high Spirited individual with the ability to drive change in the present technological world. Highly organized individual that believes in the empowerment, team work, fast learning, goal driven and result oriented"
+          },
+          "buttons": [
+            {
+              "title": "Linkedin",
+              "openUrlAction": {
+                "url": "https://www.linkedin.com/feed/?trk=",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "More Java Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536822947,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c2584076-f0d1-40b7-ab7c-1bd2b18d887f",
+      "data": [
+        {
+          "text": "who developed you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "33dfd996-04eb-4ada-8ab3-b40c6218962e",
+      "data": [
+        {
+          "text": "developer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "5155563a-4769-4591-aed9-39c04fb2d576",
+      "data": [
+        {
+          "text": "your developer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "873b8ceb-6767-4185-8db1-d10dbea4c43f",
+      "data": [
+        {
+          "text": "your developer's name"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "25b96858-82fd-4ec6-b457-6fedfc2fd06a",
+      "data": [
+        {
+          "text": "who is your developer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "39ac074e-0eff-4ae9-896d-1883190535bf",
+      "data": [
+        {
+          "text": "god father"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "08e37a2a-eedf-42aa-ab30-fe365eb6d3cb",
+      "data": [
+        {
+          "text": "who created you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    },
+    {
+      "id": "89afa451-80a0-4cfd-9db4-865f9544f351",
+      "data": [
+        {
+          "text": "your creator"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452204,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
